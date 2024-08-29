@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.EntityLayer", "Foody.EntityLayer\Foody.EntityLayer.csproj", "{69033715-10C1-4F39-B478-A8AA328F943B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.EntityLayer", "Foody.EntityLayer\Foody.EntityLayer.csproj", "{69033715-10C1-4F39-B478-A8AA328F943B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.DataAccessLayer", "Foody.DataAccessLayer\Foody.DataAccessLayer.csproj", "{8A0E4EE3-1D36-49C3-941C-B2C0B6D0E788}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.DataAccessLayer", "Foody.DataAccessLayer\Foody.DataAccessLayer.csproj", "{8A0E4EE3-1D36-49C3-941C-B2C0B6D0E788}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.BusinessLayer", "Foody.BusinessLayer\Foody.BusinessLayer.csproj", "{C531F1B6-A46D-4692-B32B-7A226487C844}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.BusinessLayer", "Foody.BusinessLayer\Foody.BusinessLayer.csproj", "{C531F1B6-A46D-4692-B32B-7A226487C844}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.PresentationLayer", "Foody.PresentationLayer\Foody.PresentationLayer.csproj", "{828B6B63-ABD9-4A5C-8BB9-E930F04F33C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.PresentationLayer", "Foody.PresentationLayer\Foody.PresentationLayer.csproj", "{828B6B63-ABD9-4A5C-8BB9-E930F04F33C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.DtoLayer", "Foody.DtoLayer\Foody.DtoLayer.csproj", "{9E97E1BE-2614-40E6-98AA-AE48FB511CE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{828B6B63-ABD9-4A5C-8BB9-E930F04F33C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{828B6B63-ABD9-4A5C-8BB9-E930F04F33C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{828B6B63-ABD9-4A5C-8BB9-E930F04F33C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E97E1BE-2614-40E6-98AA-AE48FB511CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E97E1BE-2614-40E6-98AA-AE48FB511CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E97E1BE-2614-40E6-98AA-AE48FB511CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E97E1BE-2614-40E6-98AA-AE48FB511CE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

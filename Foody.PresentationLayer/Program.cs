@@ -3,10 +3,13 @@ using Foody.BusinessLayer.Concrete;
 using Foody.DataAccessLayer.Abstract;
 using Foody.DataAccessLayer.Context;
 using Foody.DataAccessLayer.EntityFramework;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
 builder.Services.AddDbContext<FoodyContext>();
 
 builder.Services.AddScoped<IAboutDal, EfAboutDal>();
